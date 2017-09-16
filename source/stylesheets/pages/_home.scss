@@ -19,6 +19,9 @@
 }
 
 @media (max-width: 650px) {
+  .home {
+    height: calc(100vh - 147px);
+  }
   h1 {
     font-size: 35px;
   }
