@@ -16,22 +16,25 @@
   }
 }
 
-@media (min-width: 651px) {
-  .partners {
-    background-color: white;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 10px 100px;
+.partners {
+  background-color: white;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 10px 100px;
+  .mobile {
+    display:none;
   }
 }
 
 @media (max-width: 650px) {
   .partners {
-    background-color: white;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 10px 0px;
+    padding: 10px 0px !important;
+  }
+  #image-zac {
+    width: 60px !important;
+  }
+  .image {
+    width: 80px !important;
   }
 }
