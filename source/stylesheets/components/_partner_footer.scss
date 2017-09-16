@@ -1,12 +1,37 @@
-.image {
-width: 70px;
-padding: 10px;
+#image-zac {
+  width: 90px;
+  padding: 10px;
+  opacity: 0.6;
+  &:hover{
+    opacity: 1;
+  }
 }
 
-.partners {
-  background-color: white;
-  display: flex;
-  justify-content:space-between;
-  align-items:center;
-  padding: 10px 100px;
+.image {
+  width: 120px;
+  padding: 10px;
+  opacity: 0.6;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+@media (min-width: 651px) {
+  .partners {
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 100px;
+  }
+}
+
+@media (max-width: 650px) {
+  .partners {
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 0px;
+  }
 }
