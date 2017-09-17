@@ -7,6 +7,15 @@
   }
 }
 
+#image-cognitik{
+  width: 145px;
+  padding: 10px;
+  opacity: 0.6;
+  &:hover{
+    opacity: 1;
+  }
+}
+
 .image {
   width: 120px;
   padding: 10px;
@@ -34,6 +43,11 @@
   #image-zac {
     width: 60px !important;
   }
+
+  #image-cognitik {
+   width: 100px !important;
+  }
+
   .image {
     width: 80px !important;
   }
