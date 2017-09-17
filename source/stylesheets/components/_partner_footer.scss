@@ -16,6 +16,15 @@
   }
 }
 
+#block {
+  width: 72px;
+  padding: 10px;
+  opacity: 0.6;
+  &:hover{
+    opacity: 1;
+  }
+}
+
 .image {
   width: 120px;
   padding: 10px;
@@ -44,11 +53,15 @@
     width: 60px !important;
   }
 
-  #image-cognitik {
-   width: 100px !important;
+  #block {
+   width: 50px !important;
   }
 
-  .image {
-    width: 80px !important;
-  }
+  #image-cognitik {
+   width: 100px !important;
+ }
+
+ .image {
+  width: 80px !important;
+}
 }
