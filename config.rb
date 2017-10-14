@@ -23,4 +23,3 @@ end
 
 set :build_dir, 'tmp'
 activate :directory_indexes
-activate :asset_hash
