@@ -20,3 +20,6 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+set :build_dir, 'tmp'
+activate :directory_indexes
