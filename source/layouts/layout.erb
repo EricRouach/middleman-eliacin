@@ -9,11 +9,12 @@
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+    <%= favicon_tag 'images/logo1.png' %>
     <link href="https://fonts.googleapis.com/css?family=Amiri:700" rel="stylesheet">
   </head>
   <body>
     <%= yield %>
+    <%= partial "layouts/partner_footer" %>
     <%= partial "layouts/footer" %>
   </body>
 </html>
