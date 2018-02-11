@@ -33,7 +33,7 @@
   height: 100%;
   .value-prop {
     width: 25%;
-    background: dimgray;
+    background: #14141B;
     height: calc(100vh - 259px);
   }
   .presentation-summary{
@@ -44,6 +44,7 @@
     .explanation {
       line-height: 2.6;
       margin-bottom: 50px;
+      text-align: justify;
     }
   }
 }
@@ -60,9 +61,13 @@
 }
 
 #value-prop-separator{
-    border-top: 2px solid #eeeeee !important;
-    width: 90%;
-    margin-bottom: 55px;
+  border-top: 2px solid #eeeeee !important;
+  width: 90%;
+  margin-bottom: 55px;
+}
+
+.contact {
+  color: white;
 }
 
 .contact-info {
@@ -77,6 +82,10 @@
 }
 #down-button {
   width: 48px;
+}
+
+.show-partner {
+  cursor: pointer;
 }
 
 @media (max-width: 650px) {

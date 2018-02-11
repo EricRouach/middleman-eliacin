@@ -1,40 +1,51 @@
+a {
+  text-decoration: none;
+  color: black;
+  &:hover{
+    text-decoration: none;
+    color: black;
+  }
+}
+
 #image-zac {
-  width: 90px;
+  width: 120px;
   padding: 10px;
-  opacity: 0.6;
   &:hover{
     opacity: 1;
   }
 }
 
 #image-cognitik{
-  width: 145px;
+  width: 300px;
   padding: 10px;
-  opacity: 0.6;
   &:hover{
     opacity: 1;
   }
 }
 
 #block {
-  width: 72px;
+  width: 120px;
   padding: 10px;
-  opacity: 0.6;
   &:hover{
     opacity: 1;
   }
+}
+
+.logo-syment {
+  padding-top: 0px !important;
+  margin-bottom: -17px !important;
 }
 
 .image {
-  width: 120px;
+  width: 320px;
   padding: 10px;
-  opacity: 0.6;
+  margin-bottom: 30px;
   &:hover{
     opacity: 1;
   }
 }
 
-.partners {
+#partners {
   background-color: white;
   display: flex;
   justify-content:space-between;
@@ -45,8 +56,42 @@
   }
 }
 
+.partner-card {
+  height: 425px;
+  border: 1px solid dimgray;
+  margin-top: 100px;
+  &:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, -5px) scale(1.05);
+  }
+}
+
+.description-partner-card {
+  padding: 20px;
+  text-align: justify;
+}
+
+.partner-separator {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1.5px solid #eeeeee;
+  width: 80%;
+}
+
+#title-syment {
+  margin-bottom: 28px;
+}
+
+.logo-partner-card {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
 @media (max-width: 650px) {
-  .partners {
+  #partners {
     padding: 10px 0px !important;
   }
   #image-zac {
@@ -55,9 +100,9 @@
 
   #block {
    width: 50px !important;
-  }
+ }
 
-  #image-cognitik {
+ #image-cognitik {
    width: 100px !important;
  }
 
