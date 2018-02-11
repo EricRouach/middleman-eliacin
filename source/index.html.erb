@@ -3,13 +3,50 @@ title: Eliacin
 ---
 
 <div class="home">
-  <div class="home-content">
-    <h1 id="eliacin">
-      Eliacin
-    </h1>
-    <%= image_tag "logo1.png", id: "logo" %>
-    <h1 class="computer">
-     Real Estate | Proptech <span class="mobile"> | </span>Finance
-   </h1>
- </div>
+  <div class="first-bar">
+    <div class="presentation-logo">
+      <h2 id="eliacin">
+        Eliacin
+      </h2>
+      <%= image_tag "logo1.png", id: "logo" %>
+    </div>
+    <div class="lux" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b5/Luxembourg_-_Adlophe_bridge_by_night_p.jpg')"></div>
+  </div>
+  <div class="second-bar">
+    <div class="value-prop">
+      <h4 class="computer">REAL ESTATE</h4>
+      <h4 class="computer">PROPTECH</h4>
+      <h4 class="computer">FINANCE</h4>
+      <hr id="value-prop-separator">
+      <div class="contact">
+        <div class="contact-info">
+        <i class="fa fa-envelope"></i>info@eliacin.lu
+        </div>
+        <br>
+        <div class="contact-info">
+        <i class="fa fa-phone"></i>+352 621 334 111
+      </div>
+      <br>
+      <div class="contact-info">
+        <i class="fa fa-map-marker"></i>14, place Thorn L-2637 Luxembourg
+      </div>
+      </div>
+    </div>
+    <div class="presentation-summary">
+      <p class="explanation">
+        Eliacin is a consultancy & investment company dedicated to Real Estate innovation, crossing its real estate experience with the most advanced trends in the PropTech field. Eliacin, through its dedicated vehicle, partners with a couple of promising start-up (e.g. equity, corporate structuring, business development).
+
+        The PropTech domain is the transformation of the real estate market, thanks to new technologies and new players, offering innovative solutions changing the way the business used to be done.
+
+        Numerous  start-ups address now the various pain points in this industry, and investors are catching this drift, as investment figures speak from themselves.
+
+      </p>
+      <div class="show-partner">
+        <p>Current portfolio</p>
+        <%= image_tag "chevron-down.png", id: "down-button" %>
+      </div>
+    </div>
+
+
+  </div>
 </div>

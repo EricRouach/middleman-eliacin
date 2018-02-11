@@ -1,24 +1,82 @@
+.body {
+  font-family: 'Raleway', 'Georgia', sans-serif;
+}
+
 .home {
   background-color: white;
   color: black;
-  height: calc(100vh - 175px);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-align: center;
+  height: 100vh;
   h1 {
     margin-top: 30px;
-    font-family: "Georgia";
   }
-  h3 {
-    font-family: "Georgia";
+  h4 {
+    color: white;
+    margin-top: 42px;
+    letter-spacing: 7px;
   }
   #logo {
-    width: 700px;
+    width: 300px;
   }
   #eliacin {
     font-size: 55px;
   }
+}
+
+.first-bar {
+  display: flex;
+}
+
+.second-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  .value-prop {
+    width: 25%;
+    background: dimgray;
+    height: calc(100vh - 259px);
+  }
+  .presentation-summary{
+    width: 75%;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 80px;
+    .explanation {
+      line-height: 2.6;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.lux {
+  background-size: cover;
+  width: 75%;
+  background-position-y: center;
+}
+
+.presentation-logo {
+  width: 25%;
+  padding-bottom: 25px;
+}
+
+#value-prop-separator{
+    border-top: 2px solid #eeeeee !important;
+    width: 90%;
+    margin-bottom: 55px;
+}
+
+.contact-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+  i {
+    margin-right: 16px;
+
+  }
+}
+#down-button {
+  width: 48px;
 }
 
 @media (max-width: 650px) {
