@@ -7,7 +7,8 @@ $(document).ready(function(event){
     $('[data-toggle="popover"]').popover()
   });
   $(".show-partner").on("click", function(){
-    document.getElementById('#partners').scrollIntoView();
+    var myDiv = document.getElementById('partners');
+    myDiv.scrollIntoView();
   });
 });
 
