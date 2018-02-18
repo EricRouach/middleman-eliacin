@@ -1,5 +1,6 @@
 .body {
   font-family: 'Raleway', 'Georgia', sans-serif;
+  font-size: 16px !important;
 }
 
 .home {
@@ -196,7 +197,9 @@
     }
   }
   .contact {
-    padding: 0 23px !important;
+    padding: 0 10px !important;
+    text-decoration: none;
+    color: white;
   }
   .email-and-tel {
     display: flex;
