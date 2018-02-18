@@ -1,15 +1,162 @@
 ---
 title: Eliacin
 ---
-
 <div class="home">
-  <div class="home-content">
-    <h1 id="eliacin">
-      Eliacin
-    </h1>
-    <%= image_tag "logo1.png", id: "logo" %>
-    <h1 class="computer">
-     Real Estate | Proptech <span class="mobile"> | </span>Finance
-   </h1>
- </div>
+  <div class="first-bar">
+    <div class="presentation-logo">
+      <h2 id="eliacin">
+        Eliacin
+      </h2>
+      <%= image_tag "logo1.png", id: "logo" %>
+    </div>
+    <div class="lux" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b5/Luxembourg_-_Adlophe_bridge_by_night_p.jpg')"></div>
+    <div class="info-when-mobile">
+      <div class="value-prop">
+        <div class="value-prop-titles">
+          <h4 class="computer">REAL ESTATE</h4>
+          <h4 class="computer">PROPTECH</h4>
+          <h4 class="computer">FINANCE</h4>
+        </div>
+        <div class="contact">
+          <div class="email-and-tel">
+            <div class="contact-info">
+              <i class="fa fa-envelope"></i> <p>info@eliacin.lu</p>
+            </div>
+            <br>
+            <div class="contact-info">
+              <i class="fa fa-phone"></i> <p>+352 621 334 111</p>
+            </div>
+          </div>
+          <br>
+          <div class="contact-info">
+            <i class="fa fa-map-marker"></i><p>14, place Thorn L-2637</p>
+            <p>, Luxembourg</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="second-bar">
+    <div class="value-prop">
+      <h4 class="computer">REAL ESTATE</h4>
+      <h4 class="computer">PROPTECH</h4>
+      <h4 class="computer">FINANCE</h4>
+      <hr id="value-prop-separator">
+      <div class="contact">
+        <div class="contact-info">
+          <i class="fa fa-envelope"></i> <p>info@eliacin.lu</p>
+        </div>
+        <br>
+        <div class="contact-info">
+          <i class="fa fa-phone"></i> <p>+352 621 334 111</p>
+        </div>
+        <br>
+        <div class="contact-info">
+          <i class="fa fa-map-marker"></i><p>14, place Thorn L-2637 Luxembourg</p>
+        </div>
+      </div>
+    </div>
+    <div class="presentation-summary">
+      <p class="explanation">
+        Eliacin is a consultancy & investment company dedicated to Real Estate innovation, crossing its real estate experience with the most advanced trends in the PropTech field.
+        <br>
+        The PropTech domain is the transformation of the real estate market, thanks to new technologies and new players, offering innovative solutions changing the way the business used to be done.
+        <br>
+        Numerous  start-ups address now the various pain points in this industry and investors are catching this drift as investment figures speak from themselves. Eliacin, through its dedicated vehicle, partners with a couple of promising ones (e.g. equity, corporate structuring, business development).
+
+      </p>
+      <div class="show-partner">
+        <p>Current portfolio</p>
+        <%= image_tag "chevron-down.png", id: "down-button" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="partners" style= "background-image: linear-gradient(-225deg, rgba(20,20,27,0.6) 0%, rgba(220,220,220,0.6) 50%), url(<%= image_path 'lux-back.jpeg'%>)">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <a href="http://www.spallian.com" target="blank">
+
+          <div class="partner-card">
+            <div class="logo-partner-card">
+              <img src="../images/spallian.png" alt="" class="image">
+              <h4> Spallian </h4>
+            </div>
+            <hr class="partner-separator">
+            <div class="description-partner-card">
+             <p>Spallian propose un accompagnement sur-mesure logiciel et conseil afin d’exploiter tout le potentiel de la Smart Data.</p>
+           </div>
+         </div>
+       </a>
+     </div>
+
+     <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="http://cognityk.com" target="blank">
+
+        <div class="partner-card">
+          <div class="logo-partner-card">
+            <img src="../images/cognityk.png" alt="" class="image" id="image-cognitik">
+            <h4> Cognityk </h4>
+          </div>
+          <hr class="partner-separator">
+          <div class="description-partner-card">
+            <p>Faire visiter un bien non construit comme si vous y étiez devient une réalité.
+            Professionnels de I’immobilier, faites la difference dans la vente vos projets !</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="http://www.syment.com" target="blank">
+
+        <div class="partner-card">
+          <div class="logo-partner-card logo-syment">
+            <img src="../images/syment.jpg" alt="" class="image logo-syment">
+            <h4 id="title-syment"> Syment </h4>
+          </div>
+          <hr class="partner-separator">
+          <div class="description-partner-card">
+            <p>Véritable assistant personnel de l'immobilier, Syment aide les gestionnaires, propriétaires et locataires au quotidien. Ce qui est flou devient plus clair !</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://www.vivoka.com/?lang=fr" target="blank">
+
+        <div class="partner-card">
+          <div class="logo-partner-card">
+            <img src="../images/zac.png" alt="" class="image" id="image-zac">
+            <h4> Zac </h4>
+          </div>
+          <hr class="partner-separator">
+          <div class="description-partner-card">
+            <p>Plus besoin de plusieurs télécommandes, applications et boxs pour contrôler ses objets connectés. Zac peut intéragir avec à partir d'une seule application.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <a href="https://climateactionblockchain.wordpress.com/" target="blank">
+
+        <div class="partner-card">
+          <div class="logo-partner-card">
+            <img src="../images/block.png" alt="" class="image" id="block">
+            <h4> Climate Action Blockchain </h4>
+          </div>
+          <hr class="partner-separator">
+          <div class="description-partner-card">
+            <p>Promouvoir l’émergence des blockchains, cryptodevises et smart contracts avec pour objectif central d’accélérer la décarbonisation dans tous les domaines possibles.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 </div>

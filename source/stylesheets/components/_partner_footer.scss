@@ -1,40 +1,51 @@
+a {
+  text-decoration: none;
+  color: black;
+  &:hover{
+    text-decoration: none;
+    color: black;
+  }
+}
+
 #image-zac {
-  width: 90px;
+  width: 120px;
   padding: 10px;
-  opacity: 0.6;
   &:hover{
     opacity: 1;
   }
 }
 
 #image-cognitik{
-  width: 145px;
+  width: 300px;
   padding: 10px;
-  opacity: 0.6;
   &:hover{
     opacity: 1;
   }
 }
 
 #block {
-  width: 72px;
+  width: 120px;
   padding: 10px;
-  opacity: 0.6;
   &:hover{
     opacity: 1;
   }
+}
+
+.logo-syment {
+  padding-top: 0px !important;
+  margin-bottom: -17px !important;
 }
 
 .image {
-  width: 120px;
+  width: 320px;
   padding: 10px;
-  opacity: 0.6;
+  margin-bottom: 30px;
   &:hover{
     opacity: 1;
   }
 }
 
-.partners {
+#partners {
   background-color: white;
   display: flex;
   justify-content:space-between;
@@ -45,23 +56,105 @@
   }
 }
 
-@media (max-width: 650px) {
-  .partners {
-    padding: 10px 0px !important;
+.partner-card {
+  height: 425px;
+  border: 1px solid dimgray;
+  margin-top: 100px;
+  background: white;
+  &:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, -5px) scale(1.05);
   }
-  #image-zac {
-    width: 60px !important;
+}
+
+.description-partner-card {
+  padding: 20px;
+  text-align: justify;
+}
+
+.partner-separator {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1.5px solid #eeeeee;
+  width: 80%;
+}
+
+#title-syment {
+  margin-bottom: 28px;
+}
+
+.logo-partner-card {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1240px) {
+
+  .description-partner-card {
+    font-size: 14px;
   }
 
-  #block {
-   width: 50px !important;
+  .image {
+    width: 220px;
   }
-
   #image-cognitik {
-   width: 100px !important;
- }
+    width: 214px;
+  }
+  .logo-syment {
+    width: 253px
+  }
+  #title-syment {
+    margin-bottom: 43px;
+  }
+}
 
- .image {
-  width: 80px !important;
+@media (max-width: 1040px) {
+
+  .logo-syment {
+    width: 100%;
+    margin-top: 5px;
+  }
 }
+
+
+@media (max-width: 790px) {
+  .description-partner-card {
+    font-size: 16px;
+  }
+  .logo-syment {
+    margin: auto;
+    width: 80%;
+    margin-top: 3px;
+  }
+
 }
+
+@media (max-width: 690px) {
+  #partners {
+    margin-top: 358px
+  }
+  .presentation-summary {
+    height: 93vh !important;
+  }
+
+}
+
+
+@media (max-width: 590px) {
+  #partners {
+    margin-top: 400px;
+  }
+
+  #image-zac, #block {
+    margin-bottom: 0px;
+  }
+
+  .description-partner-card {
+    font-size: 14px;
+  }
+
+}
+
